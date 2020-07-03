@@ -2,7 +2,19 @@
   "schemaVersion": 2,
   "dockerfileLines": [
     "FROM socialengine/nginx-spa:latest", 
-    "COPY ./build /app", 
+    "COPY . /app", 
     "RUN chmod -R 777 /app"
+  ]
+}
+
+
+{
+  "schemaVersion": 2,
+  "dockerfileLines": [
+    "FROM node:alpine", 
+    "COPY ./build /app", 
+    "EXPOSE 80",
+    "RUN npm i -g serve && npm cache clean --force",
+    "CMD serve -C -l 80 app"
   ]
 }
