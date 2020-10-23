@@ -14,14 +14,11 @@ export default function HeaderLinks() {
         <Link to={"/"}>
           <Button className={classes.navLink}>Home</Button>
         </Link>
-        <Link to={"/topics"}>
-          <Button className={classes.navLink}>Topics</Button>
-        </Link>
         <Link to={"/questions"}>
-          <Button className={classes.navLink}>Questions</Button>
+          <Button className={classes.navLink}>Question</Button>
         </Link>
-        <Link to={"/other"}>
-          <Button className={classes.navLink}>Other</Button>
+        <Link to={"/topics"}>
+          <Button className={classes.navLink}>Topic</Button>
         </Link>
       </ListItem>
     </List>

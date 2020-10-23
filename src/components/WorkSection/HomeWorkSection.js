@@ -16,7 +16,7 @@ export default function HomeWorkSection() {
             <h2 className={classes.title}>This is Home page</h2>
             <h4 className={classes.description}>
               Once You Finish This Sentence, You Will Lose 2 Seconds In Your
-              Life.
+              Life. Thanks Alex.
             </h4>
           </Grid>
         </Grid>

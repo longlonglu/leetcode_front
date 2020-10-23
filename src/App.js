@@ -2,7 +2,6 @@ import React from "react"
 import Home from "./views/Home"
 import Topics from "./views/Topics"
 import Questions from "./views/Questions"
-import Other from "./views/Other"
 import { Route, Switch, Redirect } from "react-router-dom"
 import Login from "./views/Login"
 import AuthProvider, { useAuthContext } from "./AuthContext"
@@ -15,7 +14,6 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/topics" component={Topics} />
         <Route path="/questions" component={Questions} />
-        <Route path="/other" component={Other} />
         <AuthProvider>
           <PrivateRoute exact component={Admin} path="/admin" />
           <Route exact path="/login" component={Login} />

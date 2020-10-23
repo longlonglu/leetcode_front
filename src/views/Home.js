@@ -23,7 +23,7 @@ export default function Home(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("../assets/image/saito_asuka.jpg")}>
+      <Parallax image={require("../assets/image/background.jpg")}>
         <div className={classes.container}>
           <Grid>
             <Grid item>
@@ -38,30 +38,6 @@ export default function Home(props) {
       <div className={classes.mainRaised}>
         <HomeWorkSection />
       </div>
-      <h1>1</h1>
-      <h1>2</h1>
-      <h1>3</h1>
-      <h1>4</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
-      <h1>asdfasdsda</h1>
     </div>
   )
 }
